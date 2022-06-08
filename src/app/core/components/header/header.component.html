@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let item of menuElements">
+    <a href="#home">{{item.title}}</a>
+  </li>
+  <li style="float:right"><a class="active" (click)="rightElementClick">Logout</a></li>
+</ul>
